@@ -38,7 +38,7 @@ include "inc/classes.php";
 
         $calculo = new Imc($_POST['nome'],$_POST['peso'],$_POST['altura']);
 
-        echo $calculo->calcImc();
+        $calculo->calcImc();
 
         $calculo->checkImc();
         
